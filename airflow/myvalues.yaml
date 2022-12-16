@@ -230,7 +230,7 @@ rbac:
 
 # Airflow executor
 # One of: LocalExecutor, LocalKubernetesExecutor, CeleryExecutor, KubernetesExecutor, CeleryKubernetesExecutor
-executor: "KubernetesExecutor"
+executor: "LocalKubernetesExecutor"
 
 # If this is true and using LocalExecutor/KubernetesExecutor/CeleryKubernetesExecutor, the scheduler's
 # service account will have access to communicate with the api-server and launch pods.
@@ -241,7 +241,7 @@ allowPodLaunching: true
 # Environment variables for all airflow containers
 env:
   - name: AIRFLOW__CORE__REMOTE_LOGGING
-    value: true
+    value: 'True'
   - name: AIRFLOW__LOGGING__REMOTE_BASE_LOG_FOLDER
     value: "airflow/logs"
   # - name: AIRFLOW__LOGGING__REMOTE_LOG_CONN_ID
