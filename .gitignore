@@ -1,14 +1,6 @@
-# # Para todos os arquivos e sub-pastas localizados na pasta vendor/
-# vendor/
-# # Para arquivos Java compilados
-# *.class
-# # Para código C
-# *.so
-# # Para todos os arquivos e sub-pastas localizados na pasta bower_components/
-# bower_components/
+/airflow/logs/
 
-
-
+# ************ Daqui para baixo já é code pronto para ignorar arquivos do vs code **********
 
 # Created by https://www.toptal.com/developers/gitignore/api/visualstudiocode
 # Edit at https://www.toptal.com/developers/gitignore?templates=visualstudiocode
@@ -33,9 +25,3 @@
 .ionide
 
 # End of https://www.toptal.com/developers/gitignore/api/visualstudiocode
-
-
-
-
-
-/airflow/logs/scheduler
