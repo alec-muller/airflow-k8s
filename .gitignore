@@ -1,5 +1,5 @@
-/airflow/logs
-/spark_igti
+airflow/logs
+spark_igti
 
 # ************ Daqui para baixo já é code pronto para ignorar arquivos do vs code **********
 
@@ -26,3 +26,4 @@
 .ionide
 
 # End of https://www.toptal.com/developers/gitignore/api/visualstudiocode
+airflow/logs/dag_processor_manager/dag_processor_manager.log
