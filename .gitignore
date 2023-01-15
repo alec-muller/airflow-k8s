@@ -1,5 +1,6 @@
-airflow/logs
+_airflow
 spark_igti
+spark
 
 # ************ Daqui para baixo já é code pronto para ignorar arquivos do vs code **********
 
