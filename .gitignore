@@ -1,4 +1,6 @@
 _airflow
+airflow-argo
+airflow-argo/myvalues.yaml
 spark_igti
 spark
 
